@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO DE USUARIO</title>
+</head>
+<body style="background-color: darkseagreen;">
+    <h1><em>REGISTRO DE USUARIO</em></h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Información Personal</legend> 
+            <label for="nombre">Nombre:</label> 
+            <input type="text" id="nombre" name="nombre" required><br><br> 
+            <label for="apellido">Apellido:</label> 
+            <input type="text" id="apellido" name="apellido" required><br><br> 
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label> 
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br><br> 
+            <legend>Género:</legend> 
+            <input type="radio" id="masculino" name="genero" value="Masculino" required> 
+            <label for="masculino">Masculino</label><br> 
+            <input type="radio" id="femenino" name="genero" value="Femenino"> 
+            <label for="femenino">Femenino</label><br> 
+            <input type="radio" id="otro" name="genero" value="Otro"> 
+            <label for="otro">Otro</label><br><br>
+        </fieldset>
+        <fieldest>
+            <legend>Informacion de Contacto</legend>
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="telefono">Numero de telefono:</label>
+            <input type="tel" id="telefono" name="telefono" requiered><br><br>
+            <label form="direccion">Direcion</label><br>
+            <textarea id="direccion" name="direccion" rows="4" cols="50"></textarea><br><br>
+        </fieldest>
+        <fieldset>
+            <legend>Información de Cuenta</legend> 
+            <label for="usuario">Nombre de Usuario:</label> 
+            <input type="text" id="usuario" name="usuario" required><br><br> 
+            <label for="contrasena">Contraseña:</label> 
+            <input type="password" id="contrasena" name="contrasena" required><br><br> 
+            <label for="confirmacionContrasena">Confirmar Contraseña:</label> 
+            <input type="password" id="confirmacionContrasena" name="confirmacionContrasena" 
+required><br><br> 
+        </fieldset> 
+        <fieldset> 
+            <legend>Preferencias</legend> 
+            <label for="colorFavorito">Seleccionar un Color Favorito:</label> 
+            <select id="colorFavorito" name="colorFavorito"> 
+            <option value="Rojo">Rojo</option> 
+            <option value="Azul">Azul</option> 
+            <option value="Verde">Verde</option> 
+            <option value="Amarillo">Amarillo</option> 
+            </select><br><br> 
+            <input type="checkbox" id="aceptarTerminos" name="aceptarTerminos" required> 
+            <label for="aceptarTerminos">Acepto los Términos y Condiciones</label><br><br> 
+            </fieldset> 
+            <input type="submit" value="Registrarse">
+        </fieldset> 
+    </form>
+    
+</body>
+</html>
